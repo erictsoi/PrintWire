@@ -96,6 +96,11 @@ nav li {
 /* BODY                  
 /*******************************************/
 
+.text-center{
+  text-align: center;
+  margin: auto auto 0 
+}
+
 .span3{
   width: 25%;
   padding: 10px;
@@ -109,7 +114,7 @@ nav li {
 }
 
 .span20p{
-  width: 20%;
+  width: 18%;
   display: inline-block;
   background-color: green;
 }
