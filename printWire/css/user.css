@@ -32,7 +32,7 @@ Author: Eric Tsoi
 
 .alignright {
   float: right;
-  padding: 0 0 10px 10px;
+  padding: 0  0  0 10px;
 /* note the padding around a right floated image */
 }
 
@@ -43,15 +43,27 @@ Author: Eric Tsoi
 }
 
 /******************************************
-/* BASE STYLES                   
+/* GLOBAL STYLES                   
 /*******************************************/
-/*#container {
-  width: 100%;
-  background-color:orange;
-
+.container {
+  width: 90%;
+  margin: auto auto 0px;
 }
 
-.hidden-h1 {
+nav{
+  background-color: gray;
+}
+
+main{
+  background-color: orange;
+}
+
+footer {
+  background-color: brown;
+}
+
+
+/*.hidden-h1 {
   font-size: 2em;
   margin: -.5em 0;
   text-indent: -999em;
@@ -70,9 +82,9 @@ nav {
 
 nav ul {
   color: gray;
-}*/
+}
 
-/*nav li {
+nav li {
   width: 15%;
   font-size: 1em;
   display: inline-block;
@@ -84,6 +96,32 @@ nav ul {
 /* BODY                  
 /*******************************************/
 
+.span3{
+  width: 25%;
+  padding: 10px;
+  border:solid 2px yellow;
+}
+
+.span4{
+  width:33.3%;
+  padding: 10px;
+  border:solid 2px red;
+}
+
+.span20p{
+  width: 20%;
+  display: inline-block;
+  background-color: green;
+}
+
+
+
+.img-accordian{
+  background-color: blue;
+}
+/******************************************
+/* footer                  
+/*******************************************/
 
 
 
